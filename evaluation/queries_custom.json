@@ -1,0 +1,40 @@
+{
+  "type": "custom",
+  "description": "Student-written custom queries (4 factual + 4 conceptual).",
+  "factual": [
+    {
+      "id": "CUS_F1",
+      "text": "Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?"
+    },
+    {
+      "id": "CUS_F2",
+      "text": "What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?"
+    },
+    {
+      "id": "CUS_F3",
+      "text": "Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?"
+    },
+    {
+      "id": "CUS_F4",
+      "text": "What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?"
+    }
+  ],
+  "conceptual": [
+    {
+      "id": "CUS_C1",
+      "text": "How do speakers justify humanitarian intervention: moral duty, international law, or national interest?"
+    },
+    {
+      "id": "CUS_C2",
+      "text": "What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?"
+    },
+    {
+      "id": "CUS_C3",
+      "text": "How do speakers frame the relationship between economic stability and national security in the debates?"
+    },
+    {
+      "id": "CUS_C4",
+      "text": "What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?"
+    }
+  ]
+}

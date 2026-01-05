@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "NHS Funding (2023)",
+    "query": "What was the debate about the NHS funding in 2015?",
+    "retrieved_dates": [
+      "2024-11-19",
+      "2024-03-06",
+      "2024-11-14"
+    ],
+    "top_doc": "The shadow Minister talks about choices ; Conservative Members seem to welcome the \u00a326 billion inves"
+  },
+  {
+    "desc": "Brexit Concerns (2024)",
+    "query": "What were the concerns regarding Brexit in 2016?",
+    "retrieved_dates": [
+      "2023-09-13",
+      "2023-09-05",
+      "2024-04-29"
+    ],
+    "top_doc": "The UK Government are focused on opening new international export markets for Scottish businesses . "
+  },
+  {
+    "desc": "Prime Minister (Conflict 2015-2024)",
+    "query": "Who is the Prime Minister?",
+    "retrieved_dates": [
+      "2024-05-02",
+      "2024-04-24",
+      "2025-06-04"
+    ],
+    "top_doc": "My money is on the Leader of the House with the sharpened Telegraph column in the drawing room . Ano"
+  },
+  {
+    "desc": "Inflation Rate (Conflict)",
+    "query": "What is the current inflation rate?",
+    "retrieved_dates": [
+      "2023-11-22",
+      "2025-05-21",
+      "2024-11-20"
+    ],
+    "top_doc": "1 % ; last week , it fell to 4 . 6 % . We promised to halve inflation and we have halved it . Core i"
+  },
+  {
+    "desc": "AI Regulation (Latest)",
+    "query": "What is the latest stance on AI regulation?",
+    "retrieved_dates": [
+      "2024-04-17",
+      "2024-05-22",
+      "2023-07-19"
+    ],
+    "top_doc": "We have set up a long - term process in the AI Safety Summit , and the next one will be in Seoul in "
+  },
+  {
+    "desc": "Ukraine Support (Recent)",
+    "query": "What are the recent updates on Ukraine support?",
+    "retrieved_dates": [
+      "2024-09-02",
+      "2024-01-08",
+      "2023-10-24"
+    ],
+    "top_doc": "On the day that the new Government were appointed , the Prime Minister , the Foreign Secretary and t"
+  },
+  {
+    "desc": "Climate Change Evolution",
+    "query": "How has the discussion on climate change targets evolved?",
+    "retrieved_dates": [
+      "2024-09-27",
+      "2025-07-14",
+      "2025-07-14"
+    ],
+    "top_doc": "To address climate change , we need durable policies that support impactful climate solutions that w"
+  },
+  {
+    "desc": "Fiscal Policy Evolution",
+    "query": "How has the government's fiscal policy changed since 2010?",
+    "retrieved_dates": [
+      "2024-10-30",
+      "2025-01-21",
+      "2025-06-11"
+    ],
+    "top_doc": "From then on , we will balance the current Budget in the third year of every Budget , held annually "
+  }
+]

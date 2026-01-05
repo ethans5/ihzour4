@@ -1,0 +1,27 @@
+# --- Python & Environnement ---
+__pycache__/
+*.pyc
+venv/
+.env
+
+# --- IDE (VS Code / PyCharm) ---
+.vscode/
+.idea/
+
+# --- Données Lourdes (NE PAS UPLOADER) ---
+# On ignore tout le dossier data car il contient les JSONL et les embeddings (.npy)
+data/
+
+# --- Résultats & Logs ---
+# On ignore les logs d'exécution JSONL qui s'accumulent
+evaluation/results/*.jsonl
+# On ignore les fichiers de log texte
+debug_log.txt
+import_log.txt
+
+# --- Mais on GARDE les images pour le rapport ! ---
+!evaluation/plots/
+!evaluation/temporal_experiments/*.png
+
+# --- On garde le rapport final ---
+!TEMPORAL_RAG_REPORT.md

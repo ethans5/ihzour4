@@ -1,0 +1,145 @@
+query_type,query_id,query,chunking,repr,k,retrieved_files,retrieved_chunk_ids,answer_preview
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,fixed,,3,,,The context does not contain this information....
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,fixed,,5,,,The document mentions Gaza as a region where the UK provides humanitarian aid. There are no other specific countries or regions mentioned alongside Gaza in relation to UK humanitar...
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,fixed,,8,,,"The debates mention several countries and regions where the UK provided humanitarian aid. These include:
+
+- Gaza (mentioned multiple times, including for constructing a temporary p..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,child,,3,,,"The context mentions that the UK has been sending humanitarian aid to Gaza, Egypt, and possibly other countries or regions involved in the conflict. Specific details about other re..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,child,,5,,,The countries or regions mentioned as receiving UK humanitarian aid in the debates are Gaza and Afghanistan....
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,child,,8,,,"The countries or regions mentioned as receiving UK humanitarian aid include Gaza, Afghanistan, Sudan, Libya, the Sahel, south Asia, Nigeria, and Syria. These are indicated from var..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,fixed,,3,,,"The context mentions Sudan, Adré crossing between Chad and Sudan, Gaza in Palestine, and Occupied Palestinian Territories. No specific mention was made of direct recipients for UK ..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,fixed,,5,,,"The UK humanitarian aid was mentioned to be received by Palestinians in Gaza, Afghan citizens under the ARAP scheme, and undocumented and temporary visa-bearing Afghan refugees in ..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,fixed,,8,,,"The debates mentioned several countries and regions that received UK humanitarian aid, including:
+
+- Gaza (referred to multiple times, primarily in connection with the situation in..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,child,,3,,,The context does not contain this information....
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,child,,5,,,"The countries or regions mentioned as receiving UK humanitarian aid in the debates are:
+
+- Occupied Palestinian Territories (mentioned multiple times)
+- Sudan
+- Middle East (indica..."
+factual,CUS_F1,Which countries or regions were mentioned as receiving UK humanitarian aid in the debates?,child,,8,,,"The following countries and regions were mentioned as receiving UK humanitarian aid:
+
+- Occupied Palestinian Territories (OPT)
+- Sudan
+- Libya
+- Syria
+- Turkey
+- Israel
+
+These ment..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",fixed,,3,,,"The speech dates are: 2024-02-19, 2025-01-23, 2025-10-28. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",fixed,,5,,,"The speech dates are: 2024-02-19, 2024-04-17, 2024-07-19, 2025-01-23, 2025-10-28. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",fixed,,8,,,"The speech dates are: 2024-02-19, 2024-02-21, 2024-03-19, 2024-04-17, 2024-07-19, 2025-01-23, 2025-10-28. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",child,,3,,,"The speech dates are: 2025-09-02, 2025-10-28, 2025-10-30. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",child,,5,,,"The speech dates are: 2023-12-04, 2025-01-23, 2025-09-02, 2025-10-28, 2025-10-30. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",child,,8,,,"The speech dates are: 2023-10-23, 2023-12-04, 2024-01-24, 2025-01-23, 2025-02-06, 2025-09-02, 2025-10-28, 2025-10-30. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",fixed,,3,,,"The speech dates are: 2025-02-06, 2025-02-25, 2025-04-02. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",fixed,,5,,,"The speech dates are: 2023-09-14, 2024-01-30, 2025-02-06, 2025-02-25, 2025-04-02. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",fixed,,8,,,"The speech dates are: 2023-09-14, 2024-01-30, 2024-07-19, 2024-10-09, 2025-02-06, 2025-02-25, 2025-04-02, 2025-09-02. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",child,,3,,,"The speech dates are: 2024-04-22, 2025-07-16. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",child,,5,,,"The speech dates are: 2024-04-22, 2025-07-16, 2025-09-02, 2025-10-29. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F2,"What specific funding amounts (in pounds) were announced for humanitarian assistance, and on what dates?",child,,8,,,"The speech dates are: 2023-11-21, 2023-12-12, 2024-04-22, 2024-05-15, 2025-07-16, 2025-09-02, 2025-10-29. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,fixed,,3,,,"The following ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis:
+
+- The UK Government (in various documents)
+- The Min..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,fixed,,5,,,"The Ministers or government departments mentioned in the context as being responsible for managing the response to the Sudan crisis are:
+
+- The Minister for Africa (in [Doc 2])
+- T..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,fixed,,8,,,"Several government departments and ministers have been involved in managing the response to the Sudan crisis based on the documents provided:
+
+1. International Development Departme..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,child,,3,,,The context does not contain this information....
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,child,,5,,,"The ministers or government departments mentioned as responsible for managing the response to the Sudan crisis include:
+
+- The Foreign, Commonwealth and Development Office (FCDO) -..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,child,,8,,,"The ministers and government departments mentioned as responsible for managing the response to the Sudan crisis include:
+
+- The Foreign Secretary
+- The Under-Secretary of State for..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,fixed,,3,,,"The context mentions that the Foreign Secretary was involved in managing the response to the Sudan crisis. Specifically, it states ""I recently visited the Adré border with the Chad..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,fixed,,5,,,"The London Sudan conference, which involved Egypt, the Kingdom of Saudi Arabia, the UAE, Qatar, South Sudan, Chad, Kenya, Ethiopia, and Uganda, was convened by the Foreign Secretar..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,fixed,,8,,,"The document mentions several ministers and government departments responsible for managing the response to the Sudan crisis:
+
+1. The Deputy Foreign Secretary (also referred to as ..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,child,,3,,,"The context mentions several ministers and government departments involved in the response to the Sudan crisis. These include:
+
+- The Minister, who is part of the UK Government.
+- ..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,child,,5,,,"The following ministers and government departments were mentioned as responsible for managing the response to the Sudan crisis:
+
+- The Minister (in [Doc 1])
+- The Foreign Secretary..."
+factual,CUS_F3,Which ministers or government departments were mentioned as responsible for managing the response to the Sudan crisis?,child,,8,,,The Foreign Secretary and Development Ministers from several countries have been involved in the UK's response to the Sudan crisis. The Minister has also taken part in meetings wit...
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,fixed,,3,,,"The speech dates are: 2024-03-12, 2024-07-30, 2025-04-28. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,fixed,,5,,,"The speech dates are: 2023-10-23, 2024-03-12, 2024-07-30, 2025-04-28. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,fixed,,8,,,"The speech dates are: 2023-10-23, 2024-03-12, 2024-07-30, 2025-01-13, 2025-04-02, 2025-04-28. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,child,,3,,,"The speech dates are: 2024-03-12, 2024-11-28. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,child,,5,,,"The speech dates are: 2024-03-12, 2024-07-30, 2024-11-28, 2025-04-02. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,child,,8,,,"The speech dates are: 2024-03-12, 2024-04-15, 2024-07-30, 2024-09-11, 2024-11-28, 2025-04-02. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,fixed,,3,,,"The speech date is 2024-03-19. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,fixed,,5,,,"The speech dates are: 2024-03-19, 2024-07-19, 2025-03-04. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,fixed,,8,,,"The speech dates are: 2024-03-12, 2024-03-19, 2024-07-19, 2024-11-26, 2025-03-04, 2025-04-03. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,child,,3,,,"The speech dates are: 2024-03-12, 2024-03-19, 2024-04-17. (Doc 1, Doc 2, Doc 3)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,child,,5,,,"The speech dates are: 2024-03-12, 2024-03-19, 2024-04-17. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5)..."
+factual,CUS_F4,What dates were mentioned regarding decisions to resume or suspend funding to UNRWA?,child,,8,,,"The speech dates are: 2024-03-12, 2024-03-19, 2024-04-17, 2024-04-30, 2025-10-29. (Doc 1, Doc 2, Doc 3, Doc 4, Doc 5, Doc 6, Doc 7, Doc 8)..."
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",fixed,,3,,,"Based on the context provided, speakers justify humanitarian intervention through a combination of moral duty and adherence to international law. For example:
+
+1. **Moral Duty**: T..."
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",fixed,,5,,,The context does not contain this information....
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",fixed,,8,,,"Speakers often justify humanitarian intervention from multiple perspectives including moral duty, international law, and national interest. Here's how they typically frame their ar..."
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",child,,3,,,The context does not contain this information....
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",child,,5,,,"Based on the provided context, none of the documents explicitly address how speakers justify humanitarian intervention through specific criteria such as moral duty, international l..."
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",child,,8,,,The context does not contain this information....
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",fixed,,3,,,"Based on the provided context, there are no explicit statements from speakers justifying humanitarian intervention based solely on moral duty, international law, or national intere..."
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",fixed,,5,,,Speakers justify humanitarian intervention based on a combination of moral duty and international law. They argue that there are legal obligations under international conventions a...
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",fixed,,8,,,"Speakers often justify humanitarian intervention based on three main principles: moral duty, international law, and national interest.
+
+1. **Moral Duty**: This perspective emphasiz..."
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",child,,3,,,The context does not contain this information....
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",child,,5,,,The context does not contain this information....
+conceptual,CUS_C1,"How do speakers justify humanitarian intervention: moral duty, international law, or national interest?",child,,8,,,"Speakers in these debates often justify humanitarian intervention based on a combination of moral duty, international law, and sometimes national interests. 
+
+In [Doc 1] and [Doc 2..."
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,fixed,,3,,,The context does not contain this information....
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,fixed,,5,,,The debate touches on the balance between border control measures and the responsibility to provide humanitarian assistance to refugees and asylum seekers. The SNP argues that acco...
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,fixed,,8,,,"The document discusses several key arguments in balancing border control measures with humanitarian obligations:
+
+1. **Deportation of Irregular Migrants**: The UK government is com..."
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,child,,3,,,The context does not contain this information....
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,child,,5,,,The context provided discusses various perspectives on balancing border control measures with responsibilities towards refugees and asylum seekers. Here are some of the key argumen...
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,child,,8,,,The document does not contain specific information on arguments being made about balancing border control with humanitarian obligations to refugees and asylum seekers....
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,fixed,,3,,,The document does not contain specific arguments about balancing border control with humanitarian obligations to refugees and asylum seekers....
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,fixed,,5,,,The context does not contain this information....
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,fixed,,8,,,"The arguments presented regarding the balance between border control measures and humanitarian obligations toward refugees and asylum seekers appear to be polarized. On one side, c..."
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,child,,3,,,"The Solicitor General argues against the Conservative party's approach, stating that leaving us with a ""borders crisis"" demonstrates their failure. The Government is described as t..."
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,child,,5,,,The context does not contain this information....
+conceptual,CUS_C2,What arguments are made about balancing border control with humanitarian obligations to refugees and asylum seekers?,child,,8,,,The document does not contain specific arguments made about balancing border control with humanitarian obligations to refugees and asylum seekers. It mainly focuses on enforcement ...
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,fixed,,3,,,Speakers frequently frame the relationship between economic stability and national security by emphasizing that a stable economy is essential for bolstering national security. They...
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,fixed,,5,,,Speakers often frame the relationship between economic stability and national security by emphasizing that they are interconnected and that one cannot be achieved without the other...
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,fixed,,8,,,"Speakers often frame the relationship between economic stability and national security as interconnected pillars of a strong, resilient country. Economic stability is viewed as ess..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,child,,3,,,"Speakers in the debates often frame the relationship between economic stability and national security by emphasizing how investments in defense, employment, apprenticeships, and ec..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,child,,5,,,Speakers often frame the relationship between economic stability and national security by emphasizing that they are interconnected and critical for a country's prosperity and defen...
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,child,,8,,,"Speakers often frame the relationship between economic stability and national security by emphasizing that a strong, stable economy is crucial for ensuring national security. This ..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,fixed,,3,,,"Speakers frame the relationship between economic stability and national security by emphasizing that maintaining a strong economy is crucial for sustaining health and social care, ..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,fixed,,5,,,"Speakers in these parliamentary debate documents frequently frame the relationship between economic stability and national security as interconnected, emphasizing that a stable eco..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,fixed,,8,,,"Speakers emphasize that maintaining economic stability is crucial for ensuring national security. They highlight how stable economies can support robust defense spending, secure su..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,child,,3,,,"Speakers in the UK parliamentary debates frequently frame the relationship between economic stability and national security as interconnected. In [Doc 1], a speaker emphasizes that..."
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,child,,5,,,Speakers in these parliamentary debates frequently frame the relationship between economic stability and national security as interdependent. They emphasize that maintaining a stro...
+conceptual,CUS_C3,How do speakers frame the relationship between economic stability and national security in the debates?,child,,8,,,Speakers in these debates frequently frame the relationship between economic stability and national security by emphasizing that they are interconnected. This connection is often a...
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",fixed,,3,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",fixed,,5,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",fixed,,8,,,"Speakers often touch upon several recurring themes regarding the effectiveness of international organizations such as the UN, World Food Programme (WFP), and NGOs in crisis respons..."
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",child,,3,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",child,,5,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",child,,8,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",fixed,,3,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",fixed,,5,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",fixed,,8,,,"When discussing the effectiveness of international organizations such as the UN, World Food Programme (WFP), and NGOs in crisis response, several recurring themes emerge:
+
+1. **Lac..."
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",child,,3,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",child,,5,,,The context does not contain this information....
+conceptual,CUS_C4,"What recurring themes appear when speakers discuss the effectiveness of international organizations (UN, WFP, NGOs) in crisis response?",child,,8,,,The context does not contain this information....
