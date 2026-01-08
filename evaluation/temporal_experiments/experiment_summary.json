@@ -1,0 +1,15 @@
+{
+  "experiment_date": "2026-01-06T15:16:19.423608",
+  "total_queries": 16,
+  "corpora_tested": [
+    "UK",
+    "US"
+  ],
+  "configurations_per_corpus": 4,
+  "us_results_summary": {
+    "baseline_tests": 64,
+    "hard_filtering_tests": 10,
+    "recency_tests": 18,
+    "evolution_tests": 8
+  }
+}

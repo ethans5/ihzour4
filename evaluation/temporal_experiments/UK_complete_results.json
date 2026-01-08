@@ -1,0 +1,3887 @@
+{
+  "corpus": "UK",
+  "baseline": [
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "point_in_time",
+      "desc": "NHS Funding (2015)",
+      "query": "What was the debate about the NHS funding in 2015?",
+      "query_hebrew": "מה היה הדיון על מימון NHS בשנת 2015?",
+      "retrieved_dates": [
+        "2024-01-09",
+        "2024-11-05",
+        "2023-10-17"
+      ],
+      "top_doc_preview": "What an indictment of 14 years of Conservative Government . Did my hon . Friend see the report in today ’ s Times that showed that NHS dentists are pe"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "point_in_time",
+      "desc": "Security Budget (2024)",
+      "query": "What was the specific budget allocated to security in 2024?",
+      "query_hebrew": "מה היה התקציב הספציפי שהוקצה לביטחון בשנת 2024?",
+      "retrieved_dates": [
+        "2025-02-26",
+        "2025-05-01",
+        "2025-07-16"
+      ],
+      "top_doc_preview": "Given the backlash from the industry and the damage that it could cause to Scotch whisky exports and jobs , will the Prime Minister ’ s word on whisky"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Israel Position (Current)",
+      "query": "What is the current official position regarding the State of Israel?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי מדינת ישראל?",
+      "retrieved_dates": [
+        "2025-10-20",
+        "2023-07-18",
+        "2024-12-06"
+      ],
+      "top_doc_preview": "The Sunday Times also reported that the DNSA is understood to have acknowledged privately that the decision not to say that China is an ongoing threat"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Hamas/Gaza Position (Current)",
+      "query": "What is the current official position regarding Hamas/Gaza?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי חמאס/עזה?",
+      "retrieved_dates": [
+        "2025-10-20",
+        "2023-07-18",
+        "2024-12-06"
+      ],
+      "top_doc_preview": "The Sunday Times also reported that the DNSA is understood to have acknowledged privately that the decision not to say that China is an ongoing threat"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת במדינת ישראל?",
+      "retrieved_dates": [
+        "2024-03-26",
+        "2024-12-06",
+        "2024-01-16"
+      ],
+      "top_doc_preview": "Will the Government support a full and independent investigation to deliver accountability and reiterate that attacks on humanitarian workers are outr"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת בחמאס/עזה?",
+      "retrieved_dates": [
+        "2024-03-26",
+        "2024-12-06",
+        "2024-01-16"
+      ],
+      "top_doc_preview": "Will the Government support a full and independent investigation to deliver accountability and reiterate that attacks on humanitarian workers are outr"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "PM Rhetoric Evolution (Israel-Hamas)",
+      "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
+      "query_hebrew": "כיצד התפתחה הרטוריקה של ראש הממשלה בנוגע למלחמה בין ישראל לחמאס/עזה בין נאומו הראשון לאחרון?",
+      "retrieved_dates": [
+        "2023-10-16",
+        "2024-12-05",
+        "2024-01-15"
+      ],
+      "top_doc_preview": "Mr Speaker , “ No stone can remain unturned in finding a political solution . ” Those are not my words , but those of the Israeli and Arab mothers ’ c"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "Climate Change Evolution",
+      "query": "How has the discussion on climate change targets evolved?",
+      "query_hebrew": "כיצד התפתח הדיון על יעדי שינוי האקלים?",
+      "retrieved_dates": [
+        "2023-11-29",
+        "2024-11-21",
+        "2025-10-22"
+      ],
+      "top_doc_preview": "We are committed , and that is why we have a presence at COP28 . The House will see that senior members of the UK Government are there , as well as Ki"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "Position Change Q4 2023 vs Q4 2025",
+      "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של שנת 2023 השתנתה יחסית לעמדה הרשמית ברבעון האחרון של שנת 2025?",
+      "retrieved_dates": [
+        "2024-03-26",
+        "2024-01-23",
+        "2024-12-06"
+      ],
+      "top_doc_preview": "Will the Government support a full and independent investigation to deliver accountability and reiterate that attacks on humanitarian workers are outr"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Prime Minister (Conflict)",
+      "query": "Who is the Prime Minister?",
+      "query_hebrew": "מי ראש הממשלה?",
+      "retrieved_dates": [
+        "2025-10-15",
+        "2025-07-16",
+        "2024-02-28"
+      ],
+      "top_doc_preview": "Friend the Member for Kingston and Surbiton ( Ed Davey ) cannot be here . I thank you , Mr Speaker , the Prime Minister and other Members of this Hous"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Defense Minister (Conflict)",
+      "query": "Who is the Minister of Defense?",
+      "query_hebrew": "מי שר הביטחון?",
+      "retrieved_dates": [
+        "2025-05-19",
+        "2025-01-22",
+        "2024-02-01"
+      ],
+      "top_doc_preview": "I take this opportunity to say a massive thank you to all the NHS volunteers across the country , but especially those in Westmorland . It was a privi"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Inflation Rate (Conflict)",
+      "query": "What is the current inflation rate?",
+      "query_hebrew": "מהו שיעור האינפלציה הנוכחי?",
+      "retrieved_dates": [
+        "2023-06-28",
+        "2024-03-14",
+        "2025-05-21"
+      ],
+      "top_doc_preview": "As always , the right hon . and learned Gentleman has not taken the time to understand the detail of what we are doing , so I am happy to explain it a"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "UK-US Trade (Latest)",
+      "query": "What are the latest developments in UK-US trade relations?",
+      "query_hebrew": "מהם ההתפתחויות האחרונות ביחסי הסחר בין בריטניה לארה\"ב?",
+      "retrieved_dates": [
+        "2025-10-30",
+        "2023-11-30",
+        "2024-01-25"
+      ],
+      "top_doc_preview": "Will the Minister tell us the latest developments in the UK ’ s support for accountability mechanisms ? Will the Government now redouble those efforts"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "Immigration Policy Evolution",
+      "query": "How has the government's stance on immigration policy evolved since 2020?",
+      "query_hebrew": "כיצד התפתחה עמדת הממשלה בנושא מדיניות ההגירה מאז 2020?",
+      "retrieved_dates": [
+        "2024-03-07",
+        "2024-05-14",
+        "2024-02-21"
+      ],
+      "top_doc_preview": "Friend arrange time for a debate so that we can point out the errors of the London Mayor and put us on course for proper government in London ? I than"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "point_in_time",
+      "desc": "Healthcare Reform 2023",
+      "query": "What was discussed about healthcare reform in 2023?",
+      "query_hebrew": "מה נדון לגבי רפורמת הבריאות בשנת 2023?",
+      "retrieved_dates": [
+        "2024-12-05",
+        "2023-09-19",
+        "2025-10-29"
+      ],
+      "top_doc_preview": "If he is considering a career change , I would be very happy to have a private word with him . What steps he is taking with Cabinet colleagues to refo"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Unemployment Rate (Conflict)",
+      "query": "What is the current unemployment rate?",
+      "query_hebrew": "מהו שיעור האבטלה הנוכחי?",
+      "retrieved_dates": [
+        "2025-07-17",
+        "2024-05-13",
+        "2023-09-04"
+      ],
+      "top_doc_preview": "Will the Minister set out the steps that the Government are taking to ensure that that investment is complemented by wider reforms to break down any s"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "NHS Funding (2015)",
+      "query": "What was the debate about the NHS funding in 2015?",
+      "query_hebrew": "מה היה הדיון על מימון NHS בשנת 2015?",
+      "retrieved_dates": [
+        "2024-11-19",
+        "2024-03-06",
+        "2024-11-14"
+      ],
+      "top_doc_preview": "The shadow Minister talks about choices ; Conservative Members seem to welcome the £26 billion investment , but oppose the means of raising it . I am "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Security Budget (2024)",
+      "query": "What was the specific budget allocated to security in 2024?",
+      "query_hebrew": "מה היה התקציב הספציפי שהוקצה לביטחון בשנת 2024?",
+      "retrieved_dates": [
+        "2025-09-08",
+        "2025-06-24",
+        "2024-04-24"
+      ],
+      "top_doc_preview": "On defence spending , can the Secretary of State confirm what percentage of GDP will be used to set the cost envelope for the defence investment plan "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Position (Current)",
+      "query": "What is the current official position regarding the State of Israel?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי מדינת ישראל?",
+      "retrieved_dates": [
+        "2025-09-10",
+        "2023-07-25",
+        "2025-09-10"
+      ],
+      "top_doc_preview": "Has Israel failed to meet those conditions , and will the Government recognise Palestine as a matter of urgency ?"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Position (Current)",
+      "query": "What is the current official position regarding Hamas/Gaza?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי חמאס/עזה?",
+      "retrieved_dates": [
+        "2023-11-16",
+        "2025-10-29",
+        "2024-04-15"
+      ],
+      "top_doc_preview": "Rarely have I seen Members of this House and the other place so silent and so horrified . In contrast , overnight the Israel Defence Forces have facil"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת במדינת ישראל?",
+      "retrieved_dates": [
+        "2023-07-25",
+        "2024-08-06",
+        "2025-09-10"
+      ],
+      "top_doc_preview": "[Document date: 2023-07-25]\n﻿Title : EXPRESSING THE SENSE OF CONGRESS SUPPORTING THE STATE OF ISRAEL ; Congressional Record Vol . 169 , No . 128 Secti"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת בחמאס/עזה?",
+      "retrieved_dates": [
+        "2024-04-17",
+        "2023-11-14",
+        "2024-01-30"
+      ],
+      "top_doc_preview": "That is all in clear violation of international law , has destabilised the region , and has sown chaos in Israel ’ s own backyard , so will the Minist"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "PM Rhetoric Evolution (Israel-Hamas)",
+      "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
+      "query_hebrew": "כיצד התפתחה הרטוריקה של ראש הממשלה בנוגע למלחמה בין ישראל לחמאס/עזה בין נאומו הראשון לאחרון?",
+      "retrieved_dates": [
+        "2024-07-30",
+        "2024-07-25",
+        "2023-11-14"
+      ],
+      "top_doc_preview": "Let me reassure the hon . Lady that raising this issue does not test my patience . She is absolutely right . I reject and disagree with those in Israe"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Climate Change Evolution",
+      "query": "How has the discussion on climate change targets evolved?",
+      "query_hebrew": "כיצד התפתח הדיון על יעדי שינוי האקלים?",
+      "retrieved_dates": [
+        "2024-09-27",
+        "2025-07-14",
+        "2025-07-14"
+      ],
+      "top_doc_preview": "To address climate change , we need durable policies that support impactful climate solutions that withstand the ups and downs of Washington . That re"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Position Change Q4 2023 vs Q4 2025",
+      "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של שנת 2023 השתנתה יחסית לעמדה הרשמית ברבעון האחרון של שנת 2025?",
+      "retrieved_dates": [
+        "2024-05-17",
+        "2024-01-29",
+        "2025-10-06"
+      ],
+      "top_doc_preview": "My hon . Friend is right to make that point , and a permanent role will continue to bring that focus . As the Bill makes clear , staff and accommodati"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Prime Minister (Conflict)",
+      "query": "Who is the Prime Minister?",
+      "query_hebrew": "מי ראש הממשלה?",
+      "retrieved_dates": [
+        "2024-05-02",
+        "2024-04-24",
+        "2025-06-04"
+      ],
+      "top_doc_preview": "My money is on the Leader of the House with the sharpened Telegraph column in the drawing room . Another possible leadership contender is the Foreign "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Defense Minister (Conflict)",
+      "query": "Who is the Minister of Defense?",
+      "query_hebrew": "מי שר הביטחון?",
+      "retrieved_dates": [
+        "2025-01-06",
+        "2024-07-18",
+        "2025-06-30"
+      ],
+      "top_doc_preview": "Member for South Suffolk ( James Cartlidge ) , who was responsible for exactly that up until the election six months ago . There is of course a questi"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Inflation Rate (Conflict)",
+      "query": "What is the current inflation rate?",
+      "query_hebrew": "מהו שיעור האינפלציה הנוכחי?",
+      "retrieved_dates": [
+        "2023-11-22",
+        "2025-05-21",
+        "2024-11-20"
+      ],
+      "top_doc_preview": "1 % ; last week , it fell to 4 . 6 % . We promised to halve inflation and we have halved it . Core inflation is now lower than in nearly half of the e"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "UK-US Trade (Latest)",
+      "query": "What are the latest developments in UK-US trade relations?",
+      "query_hebrew": "מהם ההתפתחויות האחרונות ביחסי הסחר בין בריטניה לארה\"ב?",
+      "retrieved_dates": [
+        "2023-06-29",
+        "2024-05-02",
+        "2025-05-01"
+      ],
+      "top_doc_preview": "What progress she has made on improving market access to the US . As part of the Atlantic declaration , we launched negotiations on a critical mineral"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Immigration Policy Evolution",
+      "query": "How has the government's stance on immigration policy evolved since 2020?",
+      "query_hebrew": "כיצד התפתחה עמדת הממשלה בנושא מדיניות ההגירה מאז 2020?",
+      "retrieved_dates": [
+        "2024-05-01",
+        "2024-01-15",
+        "2024-05-01"
+      ],
+      "top_doc_preview": "It is painful to hear the Minister bragging today about the reduction in the number of health and social care visas awarded as a way of bringing down "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Healthcare Reform 2023",
+      "query": "What was discussed about healthcare reform in 2023?",
+      "query_hebrew": "מה נדון לגבי רפורמת הבריאות בשנת 2023?",
+      "retrieved_dates": [
+        "2024-05-08",
+        "2025-06-23",
+        "2025-08-15"
+      ],
+      "top_doc_preview": "Committee on Foreign Relations To hold hearings to examine Department of State modernization and management , focusing on building a Department to add"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Unemployment Rate (Conflict)",
+      "query": "What is the current unemployment rate?",
+      "query_hebrew": "מהו שיעור האבטלה הנוכחי?",
+      "retrieved_dates": [
+        "2024-03-18",
+        "2024-06-03",
+        "2025-06-23"
+      ],
+      "top_doc_preview": "I call the shadow Minister . Arguably , the biggest barrier to growth in the UK and to turning around the Prime Minister ’ s recession is the supply o"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "point_in_time",
+      "desc": "NHS Funding (2015)",
+      "query": "What was the debate about the NHS funding in 2015?",
+      "query_hebrew": "מה היה הדיון על מימון NHS בשנת 2015?",
+      "retrieved_dates": [
+        "2025-03-19",
+        "2023-10-17",
+        "2024-03-06"
+      ],
+      "top_doc_preview": "One of its requests is the release of an independent report commissioned by NHS England on the future funding of pharmacies . Now that the Government "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "point_in_time",
+      "desc": "Security Budget (2024)",
+      "query": "What was the specific budget allocated to security in 2024?",
+      "query_hebrew": "מה היה התקציב הספציפי שהוקצה לביטחון בשנת 2024?",
+      "retrieved_dates": [
+        "2025-04-29",
+        "2025-07-16",
+        "2023-11-08"
+      ],
+      "top_doc_preview": "What specific risk assessment have the Government carried out into the impact of this exposed vulnerability and reliance on China for what will be a s"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Israel Position (Current)",
+      "query": "What is the current official position regarding the State of Israel?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי מדינת ישראל?",
+      "retrieved_dates": [
+        "2023-11-14",
+        "2023-11-14",
+        "2023-08-15"
+      ],
+      "top_doc_preview": "They made it clear that they want to repeat the actions of 7 October . I believe the right position is to press for pauses . That is the position of t"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Hamas/Gaza Position (Current)",
+      "query": "What is the current official position regarding Hamas/Gaza?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי חמאס/עזה?",
+      "retrieved_dates": [
+        "2023-11-14",
+        "2023-11-14",
+        "2023-08-15"
+      ],
+      "top_doc_preview": "They made it clear that they want to repeat the actions of 7 October . I believe the right position is to press for pauses . That is the position of t"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת במדינת ישראל?",
+      "retrieved_dates": [
+        "2024-03-26",
+        "2025-09-15",
+        "2024-05-22"
+      ],
+      "top_doc_preview": "As he indicated , we advise the Department for Business and Trade on the situation in - country . The DBT and its Secretary of State are the decision "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת בחמאס/עזה?",
+      "retrieved_dates": [
+        "2024-03-26",
+        "2024-01-08",
+        "2024-05-22"
+      ],
+      "top_doc_preview": "As he indicated , we advise the Department for Business and Trade on the situation in - country . The DBT and its Secretary of State are the decision "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "PM Rhetoric Evolution (Israel-Hamas)",
+      "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
+      "query_hebrew": "כיצד התפתחה הרטוריקה של ראש הממשלה בנוגע למלחמה בין ישראל לחמאס/עזה בין נאומו הראשון לאחרון?",
+      "retrieved_dates": [
+        "2023-10-24",
+        "2023-10-16",
+        "2024-04-15"
+      ],
+      "top_doc_preview": "I am clear that the international community , backed by the UN , must now work together to dial down the rhetoric , open humanitarian corridors , enco"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "Climate Change Evolution",
+      "query": "How has the discussion on climate change targets evolved?",
+      "query_hebrew": "כיצד התפתח הדיון על יעדי שינוי האקלים?",
+      "retrieved_dates": [
+        "2024-10-30",
+        "2023-11-28",
+        "2025-05-08"
+      ],
+      "top_doc_preview": "Next month ’ s summit in Baku is a chance for the UK to regain world leadership on climate change — a role disastrously lost under the Conservatives ."
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "Position Change Q4 2023 vs Q4 2025",
+      "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של שנת 2023 השתנתה יחסית לעמדה הרשמית ברבעון האחרון של שנת 2025?",
+      "retrieved_dates": [
+        "2024-03-26",
+        "2024-01-08",
+        "2024-05-22"
+      ],
+      "top_doc_preview": "As he indicated , we advise the Department for Business and Trade on the situation in - country . The DBT and its Secretary of State are the decision "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Prime Minister (Conflict)",
+      "query": "Who is the Prime Minister?",
+      "query_hebrew": "מי ראש הממשלה?",
+      "retrieved_dates": [
+        "2024-02-05",
+        "2024-02-28",
+        "2025-09-03"
+      ],
+      "top_doc_preview": "The Government and I will continue to push for that route , but the problem is not the flights taking off ; it is the aid getting in . Finally , turni"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Defense Minister (Conflict)",
+      "query": "Who is the Minister of Defense?",
+      "query_hebrew": "מי שר הביטחון?",
+      "retrieved_dates": [
+        "2025-07-16",
+        "2024-02-28",
+        "2024-02-19"
+      ],
+      "top_doc_preview": "In the first quarter of this year we have achieved : the highest growth in the G7 , which we promised before the election ; investment of £120 billion"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Inflation Rate (Conflict)",
+      "query": "What is the current inflation rate?",
+      "query_hebrew": "מהו שיעור האינפלציה הנוכחי?",
+      "retrieved_dates": [
+        "2025-05-21",
+        "2025-05-21",
+        "2024-02-19"
+      ],
+      "top_doc_preview": "We were reacting to a war in Ukraine that brought inflation up all over Europe . While he is doing trade deals with countries such as the US and India"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "current",
+      "desc": "UK-US Trade (Latest)",
+      "query": "What are the latest developments in UK-US trade relations?",
+      "query_hebrew": "מהם ההתפתחויות האחרונות ביחסי הסחר בין בריטניה לארה\"ב?",
+      "retrieved_dates": [
+        "2025-10-30",
+        "2023-11-30",
+        "2024-05-15"
+      ],
+      "top_doc_preview": "The deliberate targeting of civilians , including women and newborns , is a disgrace . These latest atrocities underline the urgent need for renewed i"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "evolution",
+      "desc": "Immigration Policy Evolution",
+      "query": "How has the government's stance on immigration policy evolved since 2020?",
+      "query_hebrew": "כיצד התפתחה עמדת הממשלה בנושא מדיניות ההגירה מאז 2020?",
+      "retrieved_dates": [
+        "2024-05-14",
+        "2023-12-12",
+        "2024-05-14"
+      ],
+      "top_doc_preview": "I refer my right hon . Friend to the Government ’ s stance on the legal position in relation to the Illegal Migration Act . I would also say that for "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "point_in_time",
+      "desc": "Healthcare Reform 2023",
+      "query": "What was discussed about healthcare reform in 2023?",
+      "query_hebrew": "מה נדון לגבי רפורמת הבריאות בשנת 2023?",
+      "retrieved_dates": [
+        "2025-07-11",
+        "2023-09-19",
+        "2024-08-13"
+      ],
+      "top_doc_preview": "For amendment 4 , the three - year timeframe to prepare and publish the review and the necessary resourcing requirements have been discussed with offi"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "bm25",
+      "type": "conflict",
+      "desc": "Unemployment Rate (Conflict)",
+      "query": "What is the current unemployment rate?",
+      "query_hebrew": "מהו שיעור האבטלה הנוכחי?",
+      "retrieved_dates": [
+        "2023-11-13",
+        "2023-09-04",
+        "2023-09-04"
+      ],
+      "top_doc_preview": "As I mentioned earlier , our comprehensive support for young people now encompasses those from age 16 . I call the shadow Minister . The Minister bega"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "NHS Funding (2015)",
+      "query": "What was the debate about the NHS funding in 2015?",
+      "query_hebrew": "מה היה הדיון על מימון NHS בשנת 2015?",
+      "retrieved_dates": [
+        "2025-06-11",
+        "2024-11-14",
+        "2025-06-17"
+      ],
+      "top_doc_preview": "Gentleman that while he welcomes all the extra funding , he cannot at the same time simply say that he is against any way of raising the money for the"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Security Budget (2024)",
+      "query": "What was the specific budget allocated to security in 2024?",
+      "query_hebrew": "מה היה התקציב הספציפי שהוקצה לביטחון בשנת 2024?",
+      "retrieved_dates": [
+        "2024-04-24",
+        "2024-12-12",
+        "2025-09-08"
+      ],
+      "top_doc_preview": "Friend makes a very clear point , based on his experience of the Department . We have to make sure not just that we fund the capital , but that we hav"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Position (Current)",
+      "query": "What is the current official position regarding the State of Israel?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי מדינת ישראל?",
+      "retrieved_dates": [
+        "2025-09-10",
+        "2025-09-10",
+        "2025-09-10"
+      ],
+      "top_doc_preview": "Has Israel failed to meet those conditions , and will the Government recognise Palestine as a matter of urgency ?"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Position (Current)",
+      "query": "What is the current official position regarding Hamas/Gaza?",
+      "query_hebrew": "מהי העמדה הרשמית הנוכחית לגבי חמאס/עזה?",
+      "retrieved_dates": [
+        "2023-12-05",
+        "2024-01-30",
+        "2025-01-07"
+      ],
+      "top_doc_preview": "Gentleman is right to stress the abominable , disgraceful , disgusting behaviour of Hamas . He calls for a permanent ceasefire ; I suggest that that w"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת במדינת ישראל?",
+      "retrieved_dates": [
+        "2024-10-07",
+        "2023-07-25",
+        "2023-12-04"
+      ],
+      "top_doc_preview": "It is vital that today and every day we remember every life lost at the hands of Hamas a year ago and every life lost in captivity since , and that we"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת בחמאס/עזה?",
+      "retrieved_dates": [
+        "2024-10-07",
+        "2023-12-04",
+        "2024-01-08"
+      ],
+      "top_doc_preview": "It is vital that today and every day we remember every life lost at the hands of Hamas a year ago and every life lost in captivity since , and that we"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "PM Rhetoric Evolution (Israel-Hamas)",
+      "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
+      "query_hebrew": "כיצד התפתחה הרטוריקה של ראש הממשלה בנוגע למלחמה בין ישראל לחמאס/עזה בין נאומו הראשון לאחרון?",
+      "retrieved_dates": [
+        "2023-12-11",
+        "2025-02-05",
+        "2025-06-04"
+      ],
+      "top_doc_preview": "Gentleman asked me about settler violence . The targeted killings of civilians are completely abhorrent and we are seeking that those responsible shou"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Climate Change Evolution",
+      "query": "How has the discussion on climate change targets evolved?",
+      "query_hebrew": "כיצד התפתח הדיון על יעדי שינוי האקלים?",
+      "retrieved_dates": [
+        "2025-01-24",
+        "2023-11-08",
+        "2024-11-26"
+      ],
+      "top_doc_preview": "Member for Herne Bay and Sandwich outlined . I am conscious that many people want to speak in the debate , so I will pick up quickly on just three iss"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Position Change Q4 2023 vs Q4 2025",
+      "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
+      "query_hebrew": "האם העמדה הרשמית ברבעון האחרון של שנת 2023 השתנתה יחסית לעמדה הרשמית ברבעון האחרון של שנת 2025?",
+      "retrieved_dates": [
+        "2024-01-16",
+        "2024-02-26",
+        "2024-04-25"
+      ],
+      "top_doc_preview": "In April 2023 , the Secretary of State ’ s predecessor , the right hon ."
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Prime Minister (Conflict)",
+      "query": "Who is the Prime Minister?",
+      "query_hebrew": "מי ראש הממשלה?",
+      "retrieved_dates": [
+        "2023-11-13",
+        "2025-07-03",
+        "2025-04-01"
+      ],
+      "top_doc_preview": "David Cameron as Secretary of State for Foreign , Commonwealth and Development Affairs ."
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Defense Minister (Conflict)",
+      "query": "Who is the Minister of Defense?",
+      "query_hebrew": "מי שר הביטחון?",
+      "retrieved_dates": [
+        "2025-04-01",
+        "2025-05-21",
+        "2025-03-20"
+      ],
+      "top_doc_preview": "The Minister of State , Foreign , Commonwealth and Development Office , my hon ."
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Inflation Rate (Conflict)",
+      "query": "What is the current inflation rate?",
+      "query_hebrew": "מהו שיעור האינפלציה הנוכחי?",
+      "retrieved_dates": [
+        "2023-09-05",
+        "2024-05-22",
+        "2023-11-14"
+      ],
+      "top_doc_preview": "In the many discussions that the Minister says he has had with the Secretary of State for Health and Social Care , what figure did they discuss with h"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "UK-US Trade (Latest)",
+      "query": "What are the latest developments in UK-US trade relations?",
+      "query_hebrew": "מהם ההתפתחויות האחרונות ביחסי הסחר בין בריטניה לארה\"ב?",
+      "retrieved_dates": [
+        "2025-04-03",
+        "2023-09-14",
+        "2023-11-30"
+      ],
+      "top_doc_preview": "The impact will be felt among all trading nations . But I would like to update the House on how the UK can navigate these turbulent times , acting in "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Immigration Policy Evolution",
+      "query": "How has the government's stance on immigration policy evolved since 2020?",
+      "query_hebrew": "כיצד התפתחה עמדת הממשלה בנושא מדיניות ההגירה מאז 2020?",
+      "retrieved_dates": [
+        "2025-05-15",
+        "2025-03-25",
+        "2024-05-01"
+      ],
+      "top_doc_preview": "What steps is the Minister taking to deport them ? I say gently that we have deported more foreign nationals in the first year on our watch than the p"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Healthcare Reform 2023",
+      "query": "What was discussed about healthcare reform in 2023?",
+      "query_hebrew": "מה נדון לגבי רפורמת הבריאות בשנת 2023?",
+      "retrieved_dates": [
+        "2025-07-02",
+        "2023-07-11",
+        "2023-10-06"
+      ],
+      "top_doc_preview": "It is important that we have funding for health , so will the Secretary of State outline what that will be ?"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Unemployment Rate (Conflict)",
+      "query": "What is the current unemployment rate?",
+      "query_hebrew": "מהו שיעור האבטלה הנוכחי?",
+      "retrieved_dates": [
+        "2025-09-03",
+        "2023-09-04",
+        "2025-09-03"
+      ],
+      "top_doc_preview": "What have we seen on unemployment since this Government have been in office ?"
+    }
+  ],
+  "hard_filtering": [
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "NHS Funding (2015)",
+      "query": "What was the debate about the NHS funding in 2015?",
+      "filter": 2015,
+      "retrieved_dates": [],
+      "success": true,
+      "num_results": 0
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Security Budget (2024)",
+      "query": "What was the specific budget allocated to security in 2024?",
+      "filter": 2024,
+      "retrieved_dates": [
+        "2024-04-24",
+        "2024-04-24",
+        "2024-10-23"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "filter": [
+        "2023-10-01",
+        "2023-12-31"
+      ],
+      "retrieved_dates": [
+        "2023-12-04",
+        "2023-10-19",
+        "2023-10-25"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "filter": [
+        "2023-10-01",
+        "2023-12-31"
+      ],
+      "retrieved_dates": [
+        "2023-11-14",
+        "2023-12-04",
+        "2023-10-24"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Healthcare Reform 2023",
+      "query": "What was discussed about healthcare reform in 2023?",
+      "filter": 2023,
+      "retrieved_dates": [
+        "2023-11-17",
+        "2023-10-16",
+        "2023-07-10"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "NHS Funding (2015)",
+      "query": "What was the debate about the NHS funding in 2015?",
+      "filter": 2015,
+      "retrieved_dates": [],
+      "success": true,
+      "num_results": 0
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Security Budget (2024)",
+      "query": "What was the specific budget allocated to security in 2024?",
+      "filter": 2024,
+      "retrieved_dates": [
+        "2024-04-24",
+        "2024-12-12",
+        "2024-04-24"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "filter": [
+        "2023-10-01",
+        "2023-12-31"
+      ],
+      "retrieved_dates": [
+        "2023-12-04",
+        "2023-12-12",
+        "2023-11-27"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "filter": [
+        "2023-10-01",
+        "2023-12-31"
+      ],
+      "retrieved_dates": [
+        "2023-12-04",
+        "2023-10-26",
+        "2023-12-04"
+      ],
+      "success": true,
+      "num_results": 3
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "point_in_time",
+      "desc": "Healthcare Reform 2023",
+      "query": "What was discussed about healthcare reform in 2023?",
+      "filter": 2023,
+      "retrieved_dates": [
+        "2023-07-11",
+        "2023-10-06",
+        "2023-10-06"
+      ],
+      "success": true,
+      "num_results": 3
+    }
+  ],
+  "recency_weighting": [
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Position (Current)",
+      "query": "What is the current official position regarding the State of Israel?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-10",
+            "2023-07-25",
+            "2025-09-10"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-10",
+            "2025-09-10",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-09-10"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-09-10",
+            "2025-01-14"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Position (Current)",
+      "query": "What is the current official position regarding Hamas/Gaza?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-11-16",
+            "2025-10-29",
+            "2024-04-15"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-03-04",
+            "2024-04-15",
+            "2025-10-29"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-03-04",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-03-04",
+            "2025-03-04",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-03-04",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-07-25",
+            "2024-08-06",
+            "2025-09-10"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-07-25",
+            "2024-08-06",
+            "2025-01-14"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-14",
+            "2025-01-07",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-14",
+            "2025-01-07",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-14",
+            "2025-01-07",
+            "2024-08-06"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-14",
+            "2025-01-07",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-14",
+            "2025-01-07",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-02-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-14",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-04-17",
+            "2023-11-14",
+            "2024-01-30"
+          ],
+          "avg_year": 2023.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-04-17",
+            "2025-03-04",
+            "2025-03-04"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-03-04",
+            "2025-03-04",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-03-04",
+            "2025-03-04",
+            "2025-02-25"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-03-04",
+            "2025-03-04",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Prime Minister (Conflict)",
+      "query": "Who is the Prime Minister?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-05-02",
+            "2024-04-24",
+            "2025-06-04"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-05-02",
+            "2024-04-24",
+            "2025-03-03"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-03-03",
+            "2024-12-11",
+            "2025-01-13"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-03-03",
+            "2025-01-13",
+            "2024-12-11"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-03-03",
+            "2024-05-02",
+            "2025-06-04"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-13",
+            "2025-03-03",
+            "2024-12-11"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-13",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-03-03",
+            "2025-01-13",
+            "2024-12-11"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-13",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-13",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Defense Minister (Conflict)",
+      "query": "Who is the Minister of Defense?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2024-07-18",
+            "2025-06-30"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2024-07-18",
+            "2025-06-30"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-22",
+            "2025-02-25"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-22",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-02-25",
+            "2025-01-22"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-22"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-22",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Inflation Rate (Conflict)",
+      "query": "What is the current inflation rate?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-11-22",
+            "2025-05-21",
+            "2024-11-20"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-05-21",
+            "2023-11-22",
+            "2024-11-20"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2024-11-20",
+            "2025-05-21"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2024-11-20",
+            "2025-05-21"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-05-21",
+            "2024-11-20",
+            "2025-01-08"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2024-11-20",
+            "2025-01-09"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-09"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2024-11-20",
+            "2025-05-21"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-09"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-09"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-09"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-09"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-09"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "UK-US Trade (Latest)",
+      "query": "What are the latest developments in UK-US trade relations?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-06-29",
+            "2024-05-02",
+            "2025-05-01"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-05-01",
+            "2025-04-03",
+            "2024-05-02"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-05-01",
+            "2025-04-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2024-12-12",
+            "2025-05-01"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-05-01",
+            "2025-04-03",
+            "2025-04-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2024-12-12",
+            "2025-04-03",
+            "2025-05-01"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2024-12-12",
+            "2025-01-14",
+            "2025-01-06"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-05-01",
+            "2025-04-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2024-12-12",
+            "2025-01-14",
+            "2025-01-06"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-12-12",
+            "2025-01-14",
+            "2025-01-06"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Unemployment Rate (Conflict)",
+      "query": "What is the current unemployment rate?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-03-18",
+            "2024-06-03",
+            "2025-06-23"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-06-03",
+            "2024-03-18",
+            "2025-06-23"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-30",
+            "2024-12-12",
+            "2025-03-18"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-30",
+            "2024-12-12",
+            "2025-02-03"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-06-03",
+            "2025-06-23",
+            "2025-03-18"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-30",
+            "2024-12-12",
+            "2025-01-16"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-16",
+            "2024-12-12",
+            "2025-01-30"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-30",
+            "2024-12-12",
+            "2025-02-03"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-16",
+            "2025-01-03",
+            "2024-12-12"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-03",
+            "2025-01-08",
+            "2025-01-16"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-16",
+            "2024-12-12",
+            "2025-01-30"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-03",
+            "2025-01-06",
+            "2025-01-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-03",
+            "2025-01-06",
+            "2025-01-08"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Position (Current)",
+      "query": "What is the current official position regarding the State of Israel?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-10",
+            "2025-09-10",
+            "2025-09-10"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-10",
+            "2025-09-10",
+            "2025-09-10"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-09-10",
+            "2025-09-10"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Position (Current)",
+      "query": "What is the current official position regarding Hamas/Gaza?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-12-05",
+            "2024-01-30",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-04-01",
+            "2025-03-04"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-03-04"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-04-01",
+            "2025-03-04"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-03-04"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Israel Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2023-07-25",
+            "2023-12-04"
+          ],
+          "avg_year": 2023.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2023-07-25",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2024-10-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2024-10-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "Hamas/Gaza Support Q4 2023",
+      "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2023-12-04",
+            "2024-01-08"
+          ],
+          "avg_year": 2023.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2025-04-01",
+            "2023-12-04"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-10-07",
+            "2025-04-01",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2024-10-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Prime Minister (Conflict)",
+      "query": "Who is the Prime Minister?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-11-13",
+            "2025-07-03",
+            "2025-04-01"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-07-03",
+            "2023-11-13",
+            "2025-04-01"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-07-03",
+            "2025-03-20"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2024-12-05",
+            "2025-07-03"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-07-03",
+            "2025-04-01",
+            "2023-11-13"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2024-12-05",
+            "2025-01-27"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-27",
+            "2025-01-07",
+            "2024-12-05"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-07-03",
+            "2025-03-20"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-27",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-07",
+            "2025-01-06",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-27",
+            "2025-01-07",
+            "2024-12-05"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-07",
+            "2025-01-07"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Defense Minister (Conflict)",
+      "query": "Who is the Minister of Defense?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-05-21",
+            "2025-03-20"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-05-21",
+            "2025-03-20"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-03-20",
+            "2025-05-21"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-01-13",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-03-20",
+            "2025-05-21"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-13",
+            "2025-04-01"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-13",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-01",
+            "2025-03-20",
+            "2025-01-13"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-13",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-13"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-13",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Inflation Rate (Conflict)",
+      "query": "What is the current inflation rate?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-09-05",
+            "2024-05-22",
+            "2023-11-14"
+          ],
+          "avg_year": 2023.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2023-09-05",
+            "2024-05-22",
+            "2024-05-07"
+          ],
+          "avg_year": 2023.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2024-05-22"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2025-01-24"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2024-05-22",
+            "2023-09-05",
+            "2025-01-20"
+          ],
+          "avg_year": 2024.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2025-01-24"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2025-01-08"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2024-10-14"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2025-01-08"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2025-01-08",
+            "2025-01-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2024-12-16",
+            "2025-01-08"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-08",
+            "2025-01-08",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "current",
+      "desc": "UK-US Trade (Latest)",
+      "query": "What are the latest developments in UK-US trade relations?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2023-09-14",
+            "2023-11-30"
+          ],
+          "avg_year": 2023.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-03-13",
+            "2025-04-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-03-13",
+            "2025-04-03"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-03-13",
+            "2024-11-26"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-03-13",
+            "2025-04-08"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-03-13",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-14",
+            "2025-01-14"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-04-03",
+            "2025-03-13",
+            "2025-04-03"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-14",
+            "2025-01-14"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-14"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-14",
+            "2025-01-14"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-06",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "conflict",
+      "desc": "Unemployment Rate (Conflict)",
+      "query": "What is the current unemployment rate?",
+      "configurations": [
+        {
+          "alpha": 0.0,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-03",
+            "2023-09-04",
+            "2025-09-03"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-03",
+            "2023-09-04",
+            "2025-02-10"
+          ],
+          "avg_year": 2024.3333333333333
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-09-03",
+            "2025-02-10",
+            "2024-10-14"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.3,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-09-03",
+            "2025-02-10",
+            "2024-10-14"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-03",
+            "2025-02-10",
+            "2024-10-14"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-02-10",
+            "2025-01-20",
+            "2025-09-03"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-02-10",
+            "2025-01-20",
+            "2024-12-16"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-09-03",
+            "2025-02-10",
+            "2024-10-14"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-02-10",
+            "2025-01-20",
+            "2024-12-16"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.7,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-20",
+            "2025-01-06",
+            "2025-02-10"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.1,
+          "retrieved_dates": [
+            "2025-02-10",
+            "2025-01-20",
+            "2024-12-16"
+          ],
+          "avg_year": 2024.6666666666667
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 0.5,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-08",
+            "2025-01-20"
+          ],
+          "avg_year": 2025.0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": 1.0,
+          "retrieved_dates": [
+            "2025-01-06",
+            "2025-01-08",
+            "2025-01-06"
+          ],
+          "avg_year": 2025.0
+        }
+      ]
+    }
+  ],
+  "evolution": [
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "PM Rhetoric Evolution (Israel-Hamas)",
+      "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
+      "oldest_dates": [
+        "2023-07-04",
+        "2023-10-16",
+        "2023-10-18"
+      ],
+      "newest_dates": [
+        "2025-10-29",
+        "2025-10-29",
+        "2025-10-29"
+      ],
+      "oldest_previews": [
+        "So could the Minister tell us now : will she commit to supporting an International Criminal Court in",
+        "Does he accept that Hamas are a creature of a client state of Russia , and while we are talking abou",
+        "Some things are not in doubt , however . As my right hon . Friend the Prime Minister set out , Hamas"
+      ],
+      "newest_previews": [
+        "He raises important points about the recovery of bodies . I can confirm that I have been in talks wi",
+        "The International Court of Justice has called on Israel to allow aid into Gaza , denounced its occup",
+        "Does the Minister agree that , on top of the absolute imperative of Hamas releasing the remaining ho"
+      ],
+      "evolution_answer": "1. **Older Period (Up to and including 2025-10-29):**\n   - The situation involves ongoing conflicts between Israel and Palestine, particularly in Gaza and the West Bank.\n   - There are humanitarian crises in both regions, with shortages of aid and starvation conditions in Gaza.\n   - Settlements on Palestinian territory have seen a significant increase, and illegal settlements continue to pose challenges for progress. \n   - Relations between Hamas (in Gaza) and Israel's government led by Prime Mi"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Climate Change Evolution",
+      "query": "How has the discussion on climate change targets evolved?",
+      "oldest_dates": [
+        "2023-06-28",
+        "2023-07-12",
+        "2023-11-08"
+      ],
+      "newest_dates": [
+        "2025-10-14",
+        "2025-10-14",
+        "2025-10-14"
+      ],
+      "oldest_previews": [
+        "[Document date: 2023-06-28]\nWe have a rule at the moment that local authorities have to pass on 95 %",
+        "I agree with part of what the hon . Gentleman has said . I agree about the whole - system analysis :",
+        "[Document date: 2023-11-08]\nI have been contacted by multiple constituents who arrived in the UK via"
+      ],
+      "newest_previews": [
+        "We are now seeing warm water coral reefs going into irreversible decline , which is threatening natu",
+        "I call the Chair of the Energy Security and Net Zero Committee . Lord Stern reminded us just today t",
+        "Friend for his question , and Ella for her interest in and enthusiasm for this incredibly important "
+      ],
+      "evolution_answer": "1. **Older Period Stance/Situation**:\n   - The focus was on climate action and economic growth.\n   - There were discussions about whether to maintain or repeal the Climate Change Act 2008.\n   - The COP30 meeting (COP, Conference of the Parties) was expected with some emphasis by Brazil’s presidency.\n   - Concerns were raised regarding land use changes for new energy infrastructure and battery storage systems in the green belt.\n   - Discussions revolved around deforestation impacts on indigenous "
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Position Change Q4 2023 vs Q4 2025",
+      "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
+      "oldest_dates": [
+        "2023-07-04",
+        "2023-07-18",
+        "2023-07-18"
+      ],
+      "newest_dates": [
+        "2025-09-08",
+        "2025-10-06",
+        "2025-10-27"
+      ],
+      "oldest_previews": [
+        "The actual data argues the opposite way . We have met all our carbon budgets to date . The Climate C",
+        "[Document date: 2023-07-18]\nWith permission , I would like to make a statement on the publication of",
+        "The report states that there are “ something like 230 - 250 late applications to be determined and t"
+      ],
+      "newest_previews": [
+        "m . Committee on the Judiciary Business meeting to consider the nominations of Joshua D . Dunlap , o",
+        "Wilsbach , USAF , for reappointment to the grade of general and to be Chief of Staff of the Air Forc",
+        "Correll , USN , to be Admiral and Commander , United States Strategic Command . SD - G50 10 a . m . "
+      ],
+      "evolution_answer": "### 1. Describing the Stance/Situation in the Older Period\n\nIn the older period (2023), the Secretary of State was presenting a position that emphasized their government's robust record on climate change and renewable energy. They highlighted several achievements:\n- The country had already over-delivered on carbon budgets 1, 2, and 3.\n- They were more likely to meet carbon budget 4 compared to the previous year, suggesting progress in meeting these targets despite early difficulties.\n- Despite c"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "fixed",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Immigration Policy Evolution",
+      "query": "How has the government's stance on immigration policy evolved since 2020?",
+      "oldest_dates": [
+        "2023-07-03",
+        "2023-09-18",
+        "2023-11-15"
+      ],
+      "newest_dates": [
+        "2025-09-15",
+        "2025-09-15",
+        "2025-10-29"
+      ],
+      "oldest_previews": [
+        "The Home Secretary could not answer the question : does she support her own social care visas or not",
+        "Topical means topical . We are going to be here for some while , so I hope you understand . I call t",
+        "Our decision making is faster . We are removing those with no right to be here , and taking action a"
+      ],
+      "newest_previews": [
+        "I call the shadow Minister . Lots of people know that under this Government , the number of people a",
+        "I call the shadow Home Secretary . Does the Home Secretary accept that her predecessor was moved bec",
+        "After wantonly scrapping the Rwanda scheme , the Labour Government are now overseeing record - break"
+      ],
+      "evolution_answer": "### 1. Stance/Situation in the Older Period\n\nIn the older period, immigration control has been a major focus for both political parties involved, with the Conservative Government having scrapped the Rwanda scheme and now overseeing record-breaking figures of illegal immigrants entering the country through various channels including ferries from Dublin to Holyhead. The Liberal Democrat spokesperson was critical of these developments, stating that this chaos would be inherited by future government"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "PM Rhetoric Evolution (Israel-Hamas)",
+      "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
+      "oldest_dates": [
+        "2023-10-16",
+        "2023-10-16",
+        "2023-10-16"
+      ],
+      "newest_dates": [
+        "2025-09-10",
+        "2025-10-29",
+        "2025-10-29"
+      ],
+      "oldest_previews": [
+        "The International Committee of the Red Cross has stated that “ hospitals in Gaza risk turning into m",
+        "Gentleman that Hamas are the entity responsible for the suffering we are seeing , and Hamas alone . ",
+        "Some of those family members are with us in the Gallery . Does the Prime Minister agree that after t"
+      ],
+      "newest_previews": [
+        "I have read through the details of Connor ’ s case , which has just been summarised . It is heartbre",
+        "Gentleman doesn ’ t mind , I will not be drawn on an individual instance today . It is now 19 days s",
+        "This is a continued problem , and we will continue to work at it , alongside our partners , to try t"
+      ],
+      "evolution_answer": "### 1. Stance/Situation in the Older Period\n\nIn the older period of parliamentary debates, the Prime Minister's stance was focused on humanitarian concerns related to the conflict between Israel and Hamas/Gaza. The speeches highlighted several key points:\n- **Humanitarian Crisis**: The Prime Minister emphasized the critical situation faced by civilians in Gaza, where hospitals lack power and food supplies are overwhelmed.\n- **International Cooperation**: He discussed the need for creating safe z"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Climate Change Evolution",
+      "query": "How has the discussion on climate change targets evolved?",
+      "oldest_dates": [
+        "2023-06-28",
+        "2023-11-08",
+        "2023-11-08"
+      ],
+      "newest_dates": [
+        "2025-07-14",
+        "2025-07-15",
+        "2025-10-14"
+      ],
+      "oldest_previews": [
+        "If anything , this Bill is overdue . Eight years ago , the world came together to agree an ambitious",
+        "Householders are confused , and we need to ensure that there are trusted sources where they can obta",
+        "If we do not communicate properly with our citizens about what they can do to tackle the climate cri"
+      ],
+      "newest_previews": [
+        "Let me take those in turn . To those who doubt whether Britain can have any impact on the pathway of",
+        "Having been in the Department , the right hon . Gentleman will know that we have an excellent team o",
+        "[Document date: 2025-10-14]\nThe Secretary of State was asked — What steps he is taking to ensure sci"
+      ],
+      "evolution_answer": "### 1. **Stance/Situation in the Older Period**\n\nIn the older period (referred to as the \"OLDER PERIOD\"), the discussion on climate change targets is characterized by a critical and urgent tone. The excerpts reflect concerns about the Paris Agreement's potential failure and the severity of challenges such as extreme poverty, hunger, disease, conflict, and climate change. There is a sense of urgency in addressing these issues quickly before it’s too late. \n\nThe statements emphasize that significa"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Position Change Q4 2023 vs Q4 2025",
+      "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
+      "oldest_dates": [
+        "2023-07-10",
+        "2023-07-13",
+        "2023-07-17"
+      ],
+      "newest_dates": [
+        "2025-09-11",
+        "2025-10-20",
+        "2025-10-27"
+      ],
+      "oldest_previews": [
+        "Res . 20 , condemning the coup that took place on February 1 , 2021 , in Burma and the Burmese milit",
+        "I gently say to the Secretary of State , which Back Bencher does he not want me to take ? He can poi",
+        "Member for Richmond ( Yorks ) ( Rishi Sunak ) . The Prime Minister has a degree in politics from one"
+      ],
+      "newest_previews": [
+        "A lot has changed in politics in the past 24 years .",
+        "The Sunday Times reported that following the meeting , the Attorney General ’ s Office was asked to ",
+        "SD - 562 Committee on Finance To hold hearings to examine the nominations of Arjun Mody , of New Jer"
+      ],
+      "evolution_answer": "### 1. Describing the Stance/Situation in the Older Period\n\nIn the older period (2023), the Parliament's stance was focused on two main topics:\n\n**First Topic - Burma**\n- The Parliament condemned a coup that occurred in February 2021 in Burma and the detention of civilian leaders by Burmese military forces. It called for an immediate and unconditional release of those detained, promoted accountability and justice for deaths caused by the Burmese military, and urged elected representatives to con"
+    },
+    {
+      "corpus": "UK",
+      "chunking": "child",
+      "representation": "embeddings",
+      "type": "evolution",
+      "desc": "Immigration Policy Evolution",
+      "query": "How has the government's stance on immigration policy evolved since 2020?",
+      "oldest_dates": [
+        "2023-09-18",
+        "2023-10-24",
+        "2023-11-15"
+      ],
+      "newest_dates": [
+        "2025-07-10",
+        "2025-09-01",
+        "2025-10-22"
+      ],
+      "oldest_previews": [
+        "Home Secretary , I am talking to you . I am bothered , because these are topical questions and there",
+        "We have developed what is among the most comprehensive and robust plans to tackle illegal migration ",
+        "Friend give the House an assurance that he has made it clear to the new Foreign Secretary , who of c"
+      ],
+      "newest_previews": [
+        "Any party that wants to reverse that will have to explain why it wants to take £9 billion - worth of",
+        "” I wonder why she was so silent on her previously favourite catchphrase . The answer is that it is ",
+        "We need to deal both with levels of immigration and with inequality , and that is what the Governmen"
+      ],
+      "evolution_answer": "### 1. **Older Period (Pre-2025)**\nIn this older period, the government's stance on immigration policy seems to have been characterized by a focus on stringent and punitive measures aimed at reducing illegal immigration from small boat crossings. The Home Secretary emphasized that current laws are not working, stating they are \"no way to run a government department.\" The Home Secretary has also claimed that a new policy is in place where people arriving illegally can be detained and removed to s"
+    }
+  ]
+}

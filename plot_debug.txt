@@ -1,0 +1,10 @@
+Starting graph generation...
+Processing UK...
+  plot_baseline_comparison done for UK
+  plot_hard_filter_success done for UK
+  plot_recency_effect done for UK
+Processing US...
+  plot_baseline_comparison done for US
+  plot_hard_filter_success done for US
+  plot_recency_effect done for US
+Graph generation complete.

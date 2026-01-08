@@ -701,6 +701,66 @@ This is essential for any RAG system operating on time-sensitive data such as ne
 | Evolution retrieval | [`rag_pipeline.py`](file:///c:/Users/ethan/OneDrive/Bureau/exo4/rag/rag_pipeline.py) | 129-158 |
 | Evolution prompt | [`rag_pipeline.py`](file:///c:/Users/ethan/OneDrive/Bureau/exo4/rag/rag_pipeline.py) | 161-194 |
 | Experiment runner | [`run_temporal_experiments.py`](file:///c:/Users/ethan/OneDrive/Bureau/exo4/run_temporal_experiments.py) | 1-237 |
+| Plot Generation | [`evaluation/generate_comparison_plots.py`](file:///c:/Users/ethan/OneDrive/Bureau/exo4/evaluation/generate_comparison_plots.py) | 1-End |
+
+---
+
+## 8. Comparative Analysis
+
+This section analyzes the performance differences between the tested configurations.
+
+### 8.1 BM25 vs Embedding (Baseline)
+
+In the **Baseline** configuration (no temporal filtering), both retrieval methods suffer from temporal blindness, but in different ways.
+
+![Baseline Temporal Precision](evaluation/temporal_experiments/UK_baseline_comparison.png)
+
+*Figure 8.1: Baseline Precision on Point-in-Time Queries (UK Corpus). Shows how often each method accidentally finds the correct year without explicit filtering.*
+
+**Observations**:
+- **BM25**: Often favors documents with exact keyword matches ("2015"), which can improve temporal precision *if* the date is mentioned in the text. However, strict keyword matching fails when the date is implied or formatted differently.
+- **Embeddings**: Focus on semantic similarity. Without temporal awareness, they overwhelmingly prefer the most topically relevant documents, regardless of date, leading to high rates of **temporal hallucination** (retrieving 2024 docs for 2015 queries).
+
+### 8.2 Fixed vs Father-Child Chunking
+
+We compared Fixed Size chunking (660w) against Father-Child indexing (small child chunks linked to parent documents).
+
+#### Hard Filtering Success Rate
+![Hard Filtering Success](evaluation/temporal_experiments/UK_hard_filter_comparison.png)
+*Figure 8.2: Success rate of Hard Filtering (Fixed vs Child).*
+
+**Analysis**:
+- **Fixed Chunking**: Direct and simple. Temporal metadata is attached to the chunk.
+- **Father-Child**: Temporal metadata is inherited from the parent. This strategy often yields **better semantic context** (retrieving precise small chunks) but maintains the same temporal filtering capabilities as Fixed chunking.
+
+#### Recency Sensitivity
+![Recency Effect](evaluation/temporal_experiments/UK_recency_comparison.png)
+*Figure 8.3: Average Retrieval Year for "Current" Queries (α=0.9).*
+
+**Analysis**:
+- Both methods respond well to Recency Weighting ($\alpha=0.9$).
+- **Father-Child** tends to retrieve more specific "updates" or "status reports" which often contain fresher dates compared to broader, longer fixed chunks that might be slightly older or span longer periods.
+
+---
+
+## 9. US Corpus Analysis
+
+We extended the evaluation to a **US Congressional Record** corpus to validate the generalization of our approach.
+
+### 9.1 Corpus Characteristics
+- **Source**: US Congressional Record (House & Senate).
+- **Time Range**: 2023-2025 (similar to UK).
+- **Structure**: More formal, longer monologues compared to UK parliamentary interruptions.
+
+![US Corpus Histogram](evaluation/temporal_experiments/US_fixed_corpus_histogram.png)
+*Figure 9.1: Temporal Distribution of US Corpus.*
+
+### 9.2 Key Findings on US Data
+The results on the US corpus mirror those of the UK:
+1.  **Temporal Blindness**: Standard retrieval fails to distinguish between 2023 and 2025 statements on "Security Budget".
+2.  **Hard Filtering**: Effectively prevents hallucinations for years not in the corpus (e.g., 2015).
+3.  **Language Sensitivity**: The embedding model (`all-mpnet-base-v2`) handles American English nuances effectively without modification.
+
 
 ---
 
