@@ -28,14 +28,12 @@ QUERIES = [
     {
         "type": "point_in_time",
         "query": "What was the debate about the NHS funding in 2015?",
-        "query_he": "מה היה הדיון על מימון NHS בשנת 2015?",
         "filter_year": 2015,
         "desc": "NHS Funding (2015)"
     },
     {
         "type": "point_in_time",
         "query": "What was the specific budget allocated to security in 2024?",
-        "query_he": "מה היה התקציב הספציפי שהוקצה לביטחון בשנת 2024?",
         "filter_year": 2024,
         "desc": "Security Budget (2024)"
     },
@@ -46,26 +44,22 @@ QUERIES = [
     {
         "type": "current",
         "query": "What is the current official position regarding the State of Israel?",
-        "query_he": "מהי העמדה הרשמית הנוכחית לגבי מדינת ישראל?",
         "desc": "Israel Position (Current)"
     },
     {
         "type": "current",
         "query": "What is the current official position regarding Hamas/Gaza?",
-        "query_he": "מהי העמדה הרשמית הנוכחית לגבי חמאס/עזה?",
         "desc": "Hamas/Gaza Position (Current)"
     },
     {
         "type": "current",
         "query": "Was the official position in the last quarter of 2023 supportive of the State of Israel?",
-        "query_he": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת במדינת ישראל?",
         "filter_date_range": ("2023-10-01", "2023-12-31"),
         "desc": "Israel Support Q4 2023"
     },
     {
         "type": "current",
         "query": "Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?",
-        "query_he": "האם העמדה הרשמית ברבעון האחרון של 2023 הייתה תומכת בחמאס/עזה?",
         "filter_date_range": ("2023-10-01", "2023-12-31"),
         "desc": "Hamas/Gaza Support Q4 2023"
     },
@@ -76,19 +70,16 @@ QUERIES = [
     {
         "type": "evolution",
         "query": "How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?",
-        "query_he": "כיצד התפתחה הרטוריקה של ראש הממשלה בנוגע למלחמה בין ישראל לחמאס/עזה בין נאומו הראשון לאחרון?",
         "desc": "PM Rhetoric Evolution (Israel-Hamas)"
     },
     {
         "type": "evolution",
         "query": "How has the discussion on climate change targets evolved?",
-        "query_he": "כיצד התפתח הדיון על יעדי שינוי האקלים?",
         "desc": "Climate Change Evolution"
     },
     {
         "type": "evolution",
         "query": "Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?",
-        "query_he": "האם העמדה הרשמית ברבעון האחרון של שנת 2023 השתנתה יחסית לעמדה הרשמית ברבעון האחרון של שנת 2025?",
         "desc": "Position Change Q4 2023 vs Q4 2025"
     },
     
@@ -98,19 +89,16 @@ QUERIES = [
     {
         "type": "conflict",
         "query": "Who is the Prime Minister?",
-        "query_he": "מי ראש הממשלה?",
         "desc": "Prime Minister (Conflict)"
     },
     {
         "type": "conflict",
         "query": "Who is the Minister of Defense?",
-        "query_he": "מי שר הביטחון?",
         "desc": "Defense Minister (Conflict)"
     },
     {
         "type": "conflict",
         "query": "What is the current inflation rate?",
-        "query_he": "מהו שיעור האינפלציה הנוכחי?",
         "desc": "Inflation Rate (Conflict)"
     },
 ]
@@ -120,26 +108,22 @@ CUSTOM_QUERIES = [
     {
         "type": "current",
         "query": "What are the latest developments in UK-US trade relations?",
-        "query_he": "מהם ההתפתחויות האחרונות ביחסי הסחר בין בריטניה לארה\"ב?",
         "desc": "UK-US Trade (Latest)"
     },
     {
         "type": "evolution",
         "query": "How has the government's stance on immigration policy evolved since 2020?",
-        "query_he": "כיצד התפתחה עמדת הממשלה בנושא מדיניות ההגירה מאז 2020?",
         "desc": "Immigration Policy Evolution"
     },
     {
         "type": "point_in_time",
         "query": "What was discussed about healthcare reform in 2023?",
-        "query_he": "מה נדון לגבי רפורמת הבריאות בשנת 2023?",
         "filter_year": 2023,
         "desc": "Healthcare Reform 2023"
     },
     {
         "type": "conflict",
         "query": "What is the current unemployment rate?",
-        "query_he": "מהו שיעור האבטלה הנוכחי?",
         "desc": "Unemployment Rate (Conflict)"
     }
 ]

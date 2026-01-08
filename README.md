@@ -80,6 +80,46 @@ Based on the logs from `baseline_failures.json`:
 
 **Analysis**: Documents span **18 months** (Nov 2023 → May 2025). The top result is from 2023, despite the query asking for "current" information.
 
+
+### Queries Used for Evaluation (Mandatory + Custom)
+
+All experiments were executed using the **mandatory temporal queries defined in the assignment**, plus **four additional custom queries**, as explicitly required.  
+All queries were evaluated on **both corpora (UK and US)**.
+
+#### Mandatory Assignment Queries
+
+**Point-in-Time / Hard Filter**
+- *What was the debate about the NHS funding in 2015?* (filter_year = 2015)
+- *What was the specific budget allocated to security in 2024?* (filter_year = 2024)
+
+**Current Status / Recency**
+- *What is the current official position regarding the State of Israel?*
+- *What is the current official position regarding Hamas/Gaza?*
+- *Was the official position in the last quarter of 2023 supportive of the State of Israel?*  
+  (filter_date_range = 2023-10-01 → 2023-12-31)
+- *Was the official position in the last quarter of 2023 supportive of Hamas/Gaza?*  
+  (filter_date_range = 2023-10-01 → 2023-12-31)
+
+**Evolution Queries**
+- *How did the Prime Minister's rhetoric regarding the war between Israel and Hamas/Gaza develop between his first and last speech?*
+- *Has the official position in the last quarter of 2023 changed relative to the official position in the last quarter of 2025?*
+- *How has the discussion on climate change targets evolved?*
+
+**Conflict / Ambiguity Queries**
+- *Who is the Prime Minister?*
+- *Who is the Minister of Defense?*
+- *What is the current inflation rate?*
+
+#### Additional Custom Queries (Designed by Us)
+
+- *What are the latest developments in UK-US trade relations?*
+- *How has the government's stance on immigration policy evolved since 2020?*
+- *What was discussed about healthcare reform in 2023?* (filter_year = 2023)
+- *What is the current unemployment rate?*
+
+The full query set is defined programmatically as `ALL_QUERIES` in  
+`run_temporal_experiments.py`.
+
 ### 2.3 Conclusion
 
 > **Simple semantic similarity is insufficient for temporally-dependent questions.**
@@ -343,6 +383,9 @@ if alpha > 0 and lambda_decay > 0:
 - ⚠️ May miss highly relevant old documents
 - ⚠️ Assumes "newer is better" (not always true)
 
+This rational decay formulation is inspired by established principles in Temporal Information Retrieval, where document relevance depends not only on topical similarity but also on temporal proximity.  
+Older documents are penalized smoothly rather than discarded, allowing highly relevant historical information to remain competitive when appropriate.
+
 ---
 
 ### 4.C. Comparison: Hard Filtering vs Recency Weighting
@@ -603,6 +646,36 @@ def build_evolution_prompt(query: str, oldest_chunks: List[Dict], newest_chunks:
 4. **Temporal knowledge graphs**: Link entities across time (e.g., "Prime Minister" → timeline)
 
 ---
+The assignment explicitly includes politically sensitive and time-dependent queries related to Israel, Hamas, and Gaza.  
+These queries are particularly well-suited to expose temporal hallucinations, as older documents may be longer or more detailed while newer documents reflect updated official positions.
+
+They therefore serve as a strong validation case for both Hard Filtering and Recency Weighting strategies.
+
+---
+
+### Experimental Protocol Summary
+
+For each corpus (**UK** and **US**), the system evaluates **four parallel RAG configurations**:
+
+1. Fixed chunking + BM25  
+2. Fixed chunking + Dense Embeddings  
+3. Father-Child chunking + BM25  
+4. Father-Child chunking + Dense Embeddings  
+
+For each configuration, the following steps are executed:
+
+- **Baseline retrieval** (no temporal awareness)
+- **Mode A – Hard Filtering**  
+  Applied when a year or date range is explicitly specified
+- **Mode B – Recency Weighting**  
+  Grid search over α ∈ {0.0, 0.3, 0.5, 0.7, 0.9} and λ ∈ {0.1, 0.5, 1.0},  
+  using a fixed query reference date
+- **Mode C – Evolution Analysis**  
+  Retrieval of a large candidate pool followed by oldest/newest comparison
+
+All experiment outputs are saved as structured JSON files and visualized using comparative plots.
+
+---
 
 ## 7. Conclusion
 
@@ -708,6 +781,10 @@ This is essential for any RAG system operating on time-sensitive data such as ne
 ## 8. Comparative Analysis
 
 This section analyzes the performance differences between the tested configurations.
+Hard Filtering and Recency Weighting are implemented in the **dense embedding retriever**, as they require direct manipulation of cosine similarity scores combined with temporal metadata.
+
+BM25 is evaluated as a **baseline lexical retrieval method** and serves as a comparison point to highlight the impact of temporal awareness when using dense vector representations.
+
 
 ### 8.1 BM25 vs Embedding (Baseline)
 

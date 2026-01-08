@@ -1,8 +1,0 @@
-numpy
-matplotlib
-sentence-transformers
-rank-bm25
-ollama
-nltk
-tqdm
-torch
