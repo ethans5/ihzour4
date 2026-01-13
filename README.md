@@ -387,7 +387,19 @@ This rational decay formulation is inspired by established principles in Tempora
 Older documents are penalized smoothly rather than discarded, allowing highly relevant historical information to remain competitive when appropriate.
 
 ---
+#### 4.B.7 Academic justification (Temporal IR)
+Temporal Information Retrieval (TIR) has long established that relevance is not only topical (semantic similarity) but also time-dependent: for many queries (e.g., “current”, “latest”, “recent”), newer documents should be preferred, while older documents may still remain useful if they are highly relevant. Time-aware ranking models therefore combine a topical relevance score with a temporal component (decay), improving ranking quality and reducing the risk of “temporal hallucinations” where outdated evidence dominates the answer.
 
+In this project, we adopt a soft time-decay mechanism that smoothly penalizes older evidence instead of discarding it. This aligns with established approaches in the IR literature where time is treated as an additional relevance signal and integrated into the scoring function to bias retrieval toward more recent items when appropriate.
+
+References (IR / Temporal Ranking):
+
+Li, X., & Croft, W. B. (2003). Time-based language models. CIKM.
+
+Berberich, K., Bedathur, S., Neumann, T., & Weikum, G. (2010). A time-aware language model for query auto-completion. SIGIR.
+
+Kanhabua, N., & Nørvåg, K. (2010). Time-aware ranking in information retrieval. (Time-aware ranking models in IR).
+---
 ### 4.C. Comparison: Hard Filtering vs Recency Weighting
 
 | Aspect | Hard Filtering | Recency Weighting |
@@ -601,6 +613,23 @@ def build_evolution_prompt(query: str, oldest_chunks: List[Dict], newest_chunks:
 | **K=8** | Low | High | Exploratory questions, broad coverage |
 | **K=50** | Very Low | Very High | Evolution queries (initial pool) |
 
+
+---
+#### 6.2.1 Empirical justification of K (evidence-based)
+
+The retrieval parameter **K** directly impacts answer quality: if K is too small, the LLM may receive insufficient evidence (missing key facts or time periods); if K is too large, the context may become noisy. To justify our K choices empirically, we compared a **small baseline retrieval (K=3)** with an **evolution pool retrieval (K=50)** on the US corpus for the query **“Climate Change Evolution”**.
+
+We measure two concrete indicators:
+- **Temporal coverage**: the number of months between the oldest and newest retrieved evidence.
+- **Unique temporal facts/dates**: the number of distinct dates present in the retrieved set.
+
+The results show that **K=3** yields a narrower temporal window and fewer distinct temporal facts, which limits the model’s ability to describe change over time. In contrast, a larger candidate pool (**K=50**) increases temporal coverage and the diversity of time-specific evidence, enabling a more faithful evolution analysis.
+
+![Empirical proof for K choice](evaluation/temporal_experiments/US_k_comparison_proof.png)
+
+This figure provides an empirical argument for using a large candidate pool for evolution queries (K=50), followed by selecting the oldest and newest subsets for comparative analysis.
+
+---
 **Recommendation**:
 - **Standard queries**: K=5
 - **Factual queries**: K=3
@@ -793,6 +822,23 @@ In the **Baseline** configuration (no temporal filtering), both retrieval method
 ![Baseline Temporal Precision](evaluation/temporal_experiments/UK_baseline_comparison.png)
 
 *Figure 8.1: Baseline Precision on Point-in-Time Queries (UK Corpus). Shows how often each method accidentally finds the correct year without explicit filtering.*
+
+#### 8.1.1 BM25 vs Embeddings: performance depends on query type
+
+To compare lexical retrieval (**BM25**) against dense semantic retrieval (**embeddings**), we evaluated both methods using metrics aligned with two different temporal query families:
+
+**Point-in-time (Baseline precision):**  
+We measure the percentage of retrieved documents that match the **target year** for point-in-time queries. This captures how often each retriever *accidentally* retrieves evidence from the correct year without explicit temporal filtering.
+
+**Current (Recency capability):**  
+For “current” queries, the key requirement is retrieving **recent** evidence. We measure the **average year** of retrieved documents and compare **BM25 baseline** against **Embeddings with Mode B** (recency weighting, α=0.9, λ=1.0).
+
+![BM25 vs Embeddings Comparison](evaluation/temporal_experiments/BM25_vs_Embeddings_Comparison.png)
+
+The figure above summarizes the results: **embeddings achieve higher temporal precision** for point-in-time queries and, when combined with recency weighting, retrieve **newer evidence** for “current” questions.  
+BM25 can still be effective when time cues (e.g., an explicit year) appear as strong lexical signals, but **dense retrieval with temporal weighting** is more robust for recency-sensitive queries where topical relevance alone is insufficient.
+
+
 
 **Observations**:
 - **BM25**: Often favors documents with exact keyword matches ("2015"), which can improve temporal precision *if* the date is mentioned in the text. However, strict keyword matching fails when the date is implied or formatted differently.
