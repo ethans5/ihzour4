@@ -514,7 +514,7 @@ def main():
     print(f"  - Conflict: {len([q for q in ALL_QUERIES if q['type'] == 'conflict'])}")
 
     # Run for both corpora
-    # results_uk = run_full_experiment_suite("UK")
+    results_uk = run_full_experiment_suite("UK")
     results_us = run_full_experiment_suite("US")
 
     # Generate comparative summary
@@ -523,12 +523,12 @@ def main():
         "total_queries": len(ALL_QUERIES),
         "corpora_tested": ["UK", "US"],
         "configurations_per_corpus": 4,  # fixed+bm25, fixed+emb, child+bm25, child+emb
-        # "uk_results_summary": {
-        #     "baseline_tests": len(results_uk["baseline"]),
-        #     "hard_filtering_tests": len(results_uk["hard_filtering"]),
-        #     "recency_tests": len(results_uk["recency_weighting"]),
-        #     "evolution_tests": len(results_uk["evolution"])
-        # },
+        "uk_results_summary": {
+            "baseline_tests": len(results_uk["baseline"]),
+            "hard_filtering_tests": len(results_uk["hard_filtering"]),
+            "recency_tests": len(results_uk["recency_weighting"]),
+            "evolution_tests": len(results_uk["evolution"])
+        },
         "us_results_summary": {
             "baseline_tests": len(results_us["baseline"]),
             "hard_filtering_tests": len(results_us["hard_filtering"]),
