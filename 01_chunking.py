@@ -29,6 +29,7 @@ from utils import read_token_docs_for_ex2
 def split_sentences(text: str) -> List[str]:
     try:
         from nltk.tokenize import sent_tokenize
+
         return [s.strip() for s in sent_tokenize(text) if s.strip()]
     except Exception:
         parts = re.split(r"(?<=[.!?])\s+", text.strip())
@@ -67,7 +68,7 @@ def force_split_long_sentence(s: str, max_words: int) -> List[str]:
         else:
             words = o.split()
             for i in range(0, len(words), max_words):
-                final.append(" ".join(words[i:i + max_words]))
+                final.append(" ".join(words[i : i + max_words]))
     return final
 
 
@@ -75,10 +76,7 @@ def force_split_long_sentence(s: str, max_words: int) -> List[str]:
 # 1) MÉTHODE 1 — Fixed 660 mots + overlap 3 phrases
 # ------------------------------------------------------------
 def chunk_fixed_by_size_sentences(
-    text: str,
-    doc_id: str,
-    max_words: int = 660,
-    overlap_sentences: int = 3
+    text: str, doc_id: str, max_words: int = 660, overlap_sentences: int = 3
 ) -> List[Dict[str, Any]]:
     raw_sents = split_sentences(text)
 
@@ -102,15 +100,17 @@ def chunk_fixed_by_size_sentences(
             wc += w
             j += 1
 
-        chunks.append({
-            "doc_id": doc_id,
-            "chunk_id": f"{doc_id}_F{idx}",
-            "parent_id": None,
-            "level": "fixed_660w_overlap3s",
-            "text": " ".join(cur),
-            "num_sentences": len(cur),
-            "num_words": wc
-        })
+        chunks.append(
+            {
+                "doc_id": doc_id,
+                "chunk_id": f"{doc_id}_F{idx}",
+                "parent_id": None,
+                "level": "fixed_660w_overlap3s",
+                "text": " ".join(cur),
+                "num_sentences": len(cur),
+                "num_words": wc,
+            }
+        )
 
         idx += 1
         i = max(j - overlap_sentences, i + 1)
@@ -125,7 +125,7 @@ def build_parent_chunks_sentences(
     text: str,
     doc_id: str,
     parent_max_words: int = 900,
-    parent_overlap_sentences: int = 2
+    parent_overlap_sentences: int = 2,
 ) -> List[Dict[str, Any]]:
     sents = split_sentences(text)
     parents = []
@@ -144,15 +144,17 @@ def build_parent_chunks_sentences(
             wc += w
             j += 1
 
-        parents.append({
-            "doc_id": doc_id,
-            "chunk_id": f"{doc_id}_P{idx}",
-            "parent_id": None,
-            "level": "parent",
-            "text": " ".join(cur),
-            "num_sentences": len(cur),
-            "num_words": wc
-        })
+        parents.append(
+            {
+                "doc_id": doc_id,
+                "chunk_id": f"{doc_id}_P{idx}",
+                "parent_id": None,
+                "level": "parent",
+                "text": " ".join(cur),
+                "num_sentences": len(cur),
+                "num_words": wc,
+            }
+        )
 
         idx += 1
         i = max(j - parent_overlap_sentences, i + 1)
@@ -161,9 +163,7 @@ def build_parent_chunks_sentences(
 
 
 def build_child_chunks_from_parent_sentences(
-    parent: Dict[str, Any],
-    child_max_words: int = 250,
-    child_overlap_sentences: int = 1
+    parent: Dict[str, Any], child_max_words: int = 250, child_overlap_sentences: int = 1
 ) -> List[Dict[str, Any]]:
     sents = split_sentences(parent["text"])
     children = []
@@ -182,15 +182,17 @@ def build_child_chunks_from_parent_sentences(
             wc += w
             j += 1
 
-        children.append({
-            "doc_id": parent["doc_id"],
-            "chunk_id": f"{parent['chunk_id']}_C{idx}",
-            "parent_id": parent["chunk_id"],
-            "level": "child",
-            "text": " ".join(cur),
-            "num_sentences": len(cur),
-            "num_words": wc
-        })
+        children.append(
+            {
+                "doc_id": parent["doc_id"],
+                "chunk_id": f"{parent['chunk_id']}_C{idx}",
+                "parent_id": parent["chunk_id"],
+                "level": "child",
+                "text": " ".join(cur),
+                "num_sentences": len(cur),
+                "num_words": wc,
+            }
+        )
 
         idx += 1
         i = max(j - child_overlap_sentences, i + 1)
@@ -199,8 +201,7 @@ def build_child_chunks_from_parent_sentences(
 
 
 def father_son_chunking_sentences(
-    text: str,
-    doc_id: str
+    text: str, doc_id: str
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     parents = build_parent_chunks_sentences(text, doc_id)
     children = []

@@ -33,14 +33,16 @@ class BM25Retriever:
         out = []
         for rank, i in enumerate(top_idx, start=1):
             c = self.chunks[i]
-            out.append({
-                "rank": rank,
-                "score": float(scores[i]),
-                "chunk_id": c.get("chunk_id"),
-                "parent_id": c.get("parent_id"),
-                "filename": c.get("filename"),
-                "date": c.get("date"),
-                "parliament": c.get("parliament"),
-                "text": c.get("text", ""),
-            })
+            out.append(
+                {
+                    "rank": rank,
+                    "score": float(scores[i]),
+                    "chunk_id": c.get("chunk_id"),
+                    "parent_id": c.get("parent_id"),
+                    "filename": c.get("filename"),
+                    "date": c.get("date"),
+                    "parliament": c.get("parliament"),
+                    "text": c.get("text", ""),
+                }
+            )
         return out

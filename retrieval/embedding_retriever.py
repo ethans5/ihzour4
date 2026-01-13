@@ -25,7 +25,9 @@ def load_jsonl(path: Path) -> List[Dict[str, Any]]:
 
 
 class EmbeddingRetriever:
-    def __init__(self, chunks: List[Dict[str, Any]], embeddings: np.ndarray, model_name: str):
+    def __init__(
+        self, chunks: List[Dict[str, Any]], embeddings: np.ndarray, model_name: str
+    ):
         if len(chunks) != embeddings.shape[0]:
             raise ValueError(
                 f"Mismatch: chunks={len(chunks)} vs embeddings={embeddings.shape[0]} "
@@ -47,7 +49,7 @@ class EmbeddingRetriever:
         # On stocke dans un array numpy float32 pour vectorisation
         self.chunk_timestamps = np.zeros(len(chunks), dtype=np.float32)
         self.chunk_years = np.zeros(len(chunks), dtype=np.int32)
-        
+
         for i, c in enumerate(chunks):
             d_str = c.get("date", "1970-01-01")
             ts = convert_date_to_timestamp(d_str)
@@ -84,7 +86,7 @@ class EmbeddingRetriever:
         filter_date_range: tuple = None,
         alpha: float = 0.0,
         lambda_decay: float = 0.0,
-        query_date: float = None
+        query_date: float = None,
     ) -> List[Dict[str, Any]]:
         if k <= 0:
             return []
@@ -95,17 +97,17 @@ class EmbeddingRetriever:
         # Cosine similarity because embeddings are normalized
         # scores shape: (N,)
         cosine_sim = self.embeddings @ q
-        
+
         # --- MODE A: Hard Filtering ---
         # On applique un masque booléen (-inf pour les chunks exclus)
         mask = np.ones(len(self.chunks), dtype=bool)
-        
+
         if filter_year is not None:
-            mask &= (self.chunk_years == filter_year)
-            
+            mask &= self.chunk_years == filter_year
+
         if filter_date_range is not None:
             start_date, end_date = filter_date_range
-            # start/end peuvent être str ou float, supposons str -> convert ? 
+            # start/end peuvent être str ou float, supposons str -> convert ?
             # Pour simplifier l'appel, acceptons float timestamp ou gérons string avant.
             # Ici on on suppose que l'appelant a déjà converti ou on compare simple.
             # MAIS le prompt demande "filter_date_range", restons simple sur timestamps
@@ -114,33 +116,33 @@ class EmbeddingRetriever:
                 start_date = convert_date_to_timestamp(start_date)
             if isinstance(end_date, str):
                 end_date = convert_date_to_timestamp(end_date)
-                
-            mask &= (self.chunk_timestamps >= start_date)
-            mask &= (self.chunk_timestamps <= end_date)
-            
+
+            mask &= self.chunk_timestamps >= start_date
+            mask &= self.chunk_timestamps <= end_date
+
         # --- MODE B: Recency Weighting (Soft Decay) ---
         # Score = (1 - alpha) * Sim + alpha * (1 / (1 + lambda * delta_t))
         # delta_t = abs(query_date - chunk_date)
         # On suppose query_date fourni, sinon on prend "now" ou max chunk date
-        
-        scores = cosine_sim # base
-        
+
+        scores = cosine_sim  # base
+
         if alpha > 0 and lambda_decay > 0:
             if query_date is None:
-                # Fallback: take max date in corpus or current time? 
+                # Fallback: take max date in corpus or current time?
                 # Let's use max date in chunks to measure "recency" relative to dataset
                 # query_date = self.chunk_timestamps.max()
                 # Ou simplement utiliser time.time() si pertinent, mais max() reste cohérent avec le corpus
                 query_date = self.chunk_timestamps.max()
-            
+
             # Calcul delta_t (en années pour que lambda soit 'lisible' ex: 0.1)
             # 1 an env 31536000 sec
             SECONDS_PER_YEAR = 31536000.0
             delta_t_sec = np.abs(query_date - self.chunk_timestamps)
             delta_t_years = delta_t_sec / SECONDS_PER_YEAR
-            
+
             decay_factor = 1.0 / (1.0 + lambda_decay * delta_t_years)
-            
+
             # Combinaison
             # Note: cosine_sim est [-1, 1], decay est [0, 1].
             # On mixe.
@@ -172,14 +174,16 @@ class EmbeddingRetriever:
                 continue
 
             c = self.chunks[int(i)]
-            out.append({
-                "rank": rank,
-                "score": float(scores[int(i)]),
-                "chunk_id": c.get("chunk_id"),
-                "parent_id": c.get("parent_id"),
-                "filename": c.get("filename"),
-                "date": c.get("date"),
-                "parliament": c.get("parliament"),
-                "text": c.get("text", ""),
-            })
+            out.append(
+                {
+                    "rank": rank,
+                    "score": float(scores[int(i)]),
+                    "chunk_id": c.get("chunk_id"),
+                    "parent_id": c.get("parent_id"),
+                    "filename": c.get("filename"),
+                    "date": c.get("date"),
+                    "parliament": c.get("parliament"),
+                    "text": c.get("text", ""),
+                }
+            )
         return out
